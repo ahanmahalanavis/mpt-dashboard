@@ -219,9 +219,7 @@ if page == "📋 Overview":
     # Summary table
     st.markdown('<div class="section-header">Stock Summary Statistics (2010–2019 Training Period)</div>',
                 unsafe_allow_html=True)
-    st.dataframe(summary.style.format("{:.2f}").background_gradient(
-        subset=["Ann. Return (%)"], cmap="RdYlGn"
-    ), use_container_width=True)
+    st.dataframe(summary.style.format("{:.2f}"), use_container_width=True)
 
     # Normalised price chart
     st.markdown('<div class="section-header">Normalised Price Performance (Base = 100)</div>',
