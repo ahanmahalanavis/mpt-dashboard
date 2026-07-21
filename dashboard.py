@@ -7,17 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/163FtZ3FNecGmtj1SCXWLy4WemMFP05hL
 """
 
-"""
-Modern Portfolio Theory — Interactive Dashboard
-Run with: streamlit run dashboard.py
 
-Requirements:
-    pip install streamlit plotly pandas numpy yfinance
-
-Place this file in the same directory as your CSV files:
-    - stock_prices.csv
-    - stock_returns.csv
-"""
 
 import numpy as np
 import pandas as pd
